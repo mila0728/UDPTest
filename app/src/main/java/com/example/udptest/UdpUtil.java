@@ -30,7 +30,7 @@ public class UdpUtil {
 
 
     public static UdpUtil getInstance() {
-        Log.e("calm","版本———15");
+        Log.e("calm","版本———17");
         if (udpUtil == null) {
             udpUtil = new UdpUtil();
         }
