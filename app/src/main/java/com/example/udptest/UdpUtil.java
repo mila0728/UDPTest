@@ -1,5 +1,7 @@
 package com.example.udptest;
 
+import android.util.Log;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -28,6 +30,7 @@ public class UdpUtil {
 
 
     public static UdpUtil getInstance() {
+        Log.e("calm","版本———13");
         if (udpUtil == null) {
             udpUtil = new UdpUtil();
         }
