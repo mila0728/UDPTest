@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         UdpUtil.getInstance();
-        Log.d("calm","main____2.3");
+        Log.d("calm","main____2.4");
         Log.d("calm","dev2____2.6");
         new Thread(new Runnable() {
             @Override
