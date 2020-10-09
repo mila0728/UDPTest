@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         UdpUtil.getInstance();
         Log.d("calm","main____4.3");
         Log.d("calm","dev2____3.2");
+        Log.d("calm","test3");
         new Thread(new Runnable() {
             @Override
             public void run() {
