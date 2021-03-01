@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         UdpUtil.getInstance();
-        Log.d("calm","main__ubuntu__4.4");
+        Log.d("calm","main__ubuntu__4.5");
         Log.d("calm","dev2____3.2");
         Log.d("calm","test3");
         new Thread(new Runnable() {
