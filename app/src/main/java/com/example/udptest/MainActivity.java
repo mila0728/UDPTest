@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("calm","main____2.17");
         Log.d("calm","main____2.17");
         Log.d("calm","main____2.17");
-        Log.d("calm","dev4____4.2");
+        Log.d("calm","生产版本__4.2");
         new Thread(new Runnable() {
             @Override
             public void run() {
