@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         UdpUtil.getInstance();
         Log.d("calm","修改内容____2.17");
         Log.d("calm","Test3修改内容____1.1_3");
-        Log.d("calm","Test修改内容____1.2");
-        Log.d("calm","测试版本 2.31");
+        Log.d("calm","Test修改内容____1.32");
+        Log.d("calm","测试版本 2.32");
         new Thread(new Runnable() {
             @Override
             public void run() {
