@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         UdpUtil.getInstance();
         Log.d("calm","测试版修改内容____2.13");
-        Log.d("calm","Test3修改内容____1.1");
-        Log.d("calm","debug 1.4");
+        Log.d("calm","正式版修改内容____1.1");
+        Log.d("calm","realse 1.1");
         new Thread(new Runnable() {
             @Override
             public void run() {
