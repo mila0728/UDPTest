@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //提交v1.19
+        //提交v1.191
+        //提交v1.20
         UdpUtil.getInstance();
         new Thread(new Runnable() {
             @Override
